@@ -1,0 +1,9 @@
+.lollyDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lollyDiv .lollipop {
+    height: 300px;
+}
