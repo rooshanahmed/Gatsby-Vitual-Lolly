@@ -1,10 +1,16 @@
 import React from "react"
 
-export default function Lolly({
+export interface LollyProps {
+  fillLollyTop: string,
+  fillLollyMiddle: string,
+  fillLollyBottom: string
+}
+
+export const Lolly: React.FC<LollyProps> = ({
   fillLollyTop,
   fillLollyMiddle,
   fillLollyBottom,
-}) {
+}) => {
   return (
     <svg
       className="lollipop"
